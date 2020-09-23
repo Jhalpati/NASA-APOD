@@ -30,6 +30,7 @@ class App extends Component {
     return (
       <div className="app">
         <div className="nasa-photo">
+          <h1>NASA's Astronomy Picture of the day</h1>
           
           {/* <img src={photos.url} className="photo"/> */}
           {photos.media_type === "image" ? (
